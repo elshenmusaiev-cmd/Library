@@ -8,35 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace UserInterface
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
         }
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            private void btnMenu_Click(object sender, EventArgs e)
-        {
             MessageBox.Show("Menu");
         }
+
         private void btnSearch_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Search:" + txtSearch.Text);
         }
+
         private void btnProfile_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Profile");
         }
+
         private void btnCart_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Cart");
-        }
-
-                
         }
     }
 }
